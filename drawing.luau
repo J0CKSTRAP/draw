@@ -147,7 +147,7 @@ DrawingLib.new = function(drawingType)
 	elseif drawingType == "Text" then
 		local textObj = ({
 			Text = "",
-			Font = DrawingLib.Fonts.Jura,
+			Font = DrawingLib.Fonts.UI,
 			Size = 0,
 			Position = Vector2.zero,
 			Center = false,
