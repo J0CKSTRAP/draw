@@ -47,10 +47,10 @@ local baseDrawingObj = setmetatable({
 	end
 })
 local drawingFontsEnum = {
-	[0] = Font.fromEnum(Enum.Font.Jura),
-	[1] = Font.fromEnum(Enum.Font.Jura),
-	[2] = Font.fromEnum(Enum.Font.Jura),
-	[3] = Font.fromEnum(Enum.Font.Jura),
+	[0] = Font.fromEnum(Enum.Font.Sarpanch),
+	[1] = Font.fromEnum(Enum.Font.Sarpanch),
+	[2] = Font.fromEnum(Enum.Font.Sarpanch),
+	[3] = Font.fromEnum(Enum.Font.Sarpanch),
 }
 getFontFromIndex = function(fontIndex: number): Font
 	return drawingFontsEnum[fontIndex]
